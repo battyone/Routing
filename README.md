@@ -2,6 +2,7 @@
 It is able to answer two type of queries:
 * **Path**. Find shortest path from station A to station B. Syntax is *"path A -> B"*
 * **Nearby stations**. Find stations reachable from A within 60. Syntax is *"near A, 60"*.
+
 It is based on Dijkstra single-source shortest-path algorithm, which asymptotically consumes O(E*logV) time for each query.
 
 ## Execution
